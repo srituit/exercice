@@ -6,7 +6,7 @@
 
 int	main(int argc, char **argv)
 {
-	int	arr[] = {1, 9, 2};
+	int	arr[] = {1, 9, 4, 2, 5, 7, 14, 2};
 	int	arrs;
 	int	fd1[2];
 	int	fd2[2];
@@ -14,7 +14,6 @@ int	main(int argc, char **argv)
 	int	end;
 
 	arrs = sizeof(arr) / sizeof(int);
-	printf("%d\n", arrs);
 	pipe(fd1);
 	
 	int	id1;
